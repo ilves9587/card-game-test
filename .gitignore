@@ -1,0 +1,30 @@
+# Local worktrees
+.worktrees/
+
+# Godot cache and import artifacts
+.godot/
+*.import
+
+# Export output
+builds/
+*.apk
+*.aab
+*.ipa
+*.zip
+*.tar
+*.tar.gz
+
+# Logs and temp files
+*.log
+*.tmp
+*.temp
+
+# macOS and Windows noise
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
